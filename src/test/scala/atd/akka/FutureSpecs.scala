@@ -7,7 +7,7 @@ import akka.actor.Actor
 import Actor._
 import akka.dispatch.Future
 
-
+/*
 class ExplicitFutureSpec extends WordSpec with MustMatchers {
 
 
@@ -24,3 +24,4 @@ class ExplicitFutureSpec extends WordSpec with MustMatchers {
   }
 
 }
+*/

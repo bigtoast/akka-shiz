@@ -9,7 +9,7 @@ class Counter extends Actor {
   def receive = {
     case "next" =>
       int = int +1
-      self.channel ! Count( int )
+      sender ! Count( int )
   }
 }
 
